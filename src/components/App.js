@@ -52,7 +52,7 @@ class App extends React.Component {
 
   intervalClicked = () => {
     const { second, minute, hour, intervalsStorage } = this.state;
-    intervalsStorage.push(`${hour}: ${minute}: ${second}:`);
+    intervalsStorage.push(`${hour} : ${minute} : ${second} :`);
     this.setState({
       intervalsStorage,
     });
