@@ -59,7 +59,7 @@ class App extends React.Component {
   };
 
   clearClicked = () => {
-    this.stopClicked();
+    this.stopClicked(); 
     this.setState({
       second: 0,
       minute: 0,
